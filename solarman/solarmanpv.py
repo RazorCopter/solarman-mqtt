@@ -87,7 +87,8 @@ class SolarmanPV:
 
         _t = time.strftime("%Y-%m-%d %H:%M:%S")
         try:
-            inverter_device_state = inverter_data["deviceState"]
+           # inverter_device_state = inverter_data["deviceState"]
+            inverter_device_state = 1
         except KeyError:
             inverter_device_state = 128
 
